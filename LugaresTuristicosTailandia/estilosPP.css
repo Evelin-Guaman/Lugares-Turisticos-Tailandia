@@ -1,0 +1,59 @@
+body{
+   background-color: #E6E6FA;
+}
+             p{
+				text-align: left;
+				padding: 10px;
+				box-shadow:0 4px 8px rgba (0,0,0,0.4);
+				transition :transform 0.3s ease,box-shadow 0.3s ease;
+				display:block;
+				margin:0 auto
+				font-family: times new roman;
+				}   
+				
+		 summary{
+			    font-size: 24pt ;
+			    font-family: 'Times New Roman', Times, serif;
+			    text-align: left;
+				padding: 12px;
+				}  
+
+			span{
+				font-family: Times new roman;
+				font-size: 16pt;
+				text-align: center;
+				width: 235px;
+				height: 20px;
+				display: block;
+				float: left;
+				margin: 3px;
+				padding: 3px;
+				}
+
+			nav{
+                background-color: #FFEBCD;
+				padding: 15px;
+				width: 98%;
+				height: 60px;
+                top: 0;
+                left: 0;
+                overflow-y: auto;
+				}
+
+		   nav a{
+				display: block;
+				float: left;
+				color: #000000;
+				padding: 10px;
+				transition: background-color 0.3s transform 0.3s;
+				}
+
+    nav a:hover {
+		        height: 37px;
+				background-color: #4682B4;
+				color: #ffffff;
+				border-radius: 25px;
+				transform: scale(1.0);
+				}
+                
+			
